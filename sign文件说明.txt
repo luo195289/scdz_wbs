@@ -1,0 +1,4 @@
+1：解压sign
+2: 在android studio中构建--》build app       生成apk后在  app->build->outputs->apk->debug->中找到刚才生成的apk 并复制到 sign目录下
+3：编辑signwbs    把X:   换成当前sign所在的目录    把倒数第二个名字换成刚才复制的apk名称
+4：以管理员身份运行 signwbs  生成签名的apk   
